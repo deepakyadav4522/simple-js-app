@@ -1,0 +1,50 @@
+* {
+    background-color: orangered;
+    color: white;
+}
+
+.list-item {
+    list-style-type: none;
+    padding-left: 10px;
+    font-size: 30px;
+    font-weight: 500;
+
+}
+.navigation-list_item {
+    text-decoration: none;
+}
+.list {
+    display: flex;
+    flex-direction: column wrap;
+    justify-content:flex-end;
+
+}
+.pokedex {
+    display: inline;
+    font-size: 50px;
+}
+
+.social {
+    position: initial;
+    bottom: 1rem;
+    left: 1rem;
+    font-size: 22px;
+    text-align: center;
+}
+
+.social-icons {
+    position: initial;
+    margin-top: 2rem;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.social-icons:hover{
+    color: black;
+}
+.fab {
+    padding: 5px;
+}
