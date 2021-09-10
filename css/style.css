@@ -6,7 +6,6 @@ main {
     background: darkgrey;
     color: white;
     width: 70vw;
-    height: 60vh;
     justify-content: center;
     margin: auto;
     display: grid;
@@ -24,7 +23,6 @@ main {
 .pokemon-list {
     border: 5px solid darkslategrey;
     width: 50vw;
-    height: 35vh;
     justify-content: center;
     align-items: center;
     margin: auto;
@@ -39,7 +37,6 @@ main {
     list-style-type: none;
     padding-top: 10px;
     width: 30vw;
-    height: 7vh;
 
 }
 .btn-class {
@@ -50,8 +47,8 @@ main {
     justify-content: center;
     width: 8vw;
     height: 5vh;
-    font-weight: 900;
-    font-size: 20px;
+    font-weight: 500;
+    
 
     
 
@@ -71,10 +68,9 @@ main {
 
 
 footer {
-    display: grid;
-    grid-template-columns: 2;
+    display: block;
     justify-content: center;
-    position: absolute;
+    position: initial;
     bottom: 5%;
     right: 45%
 
