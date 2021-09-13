@@ -5,14 +5,35 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="img/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <title>Pokedex | Home</title>
+    <title>Pokedex | Home (bootStrap)</title>
 </head>
 
 <body>
-    <header class="header">
-        
-        <nav class="navbar">
+    <header class="header container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid ">
+              <h1 class=""><span class="badge bg-secondary">Pokedex</span></h1>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <h1 class="pokedex navbar-brand navbar-lg">PokéDex</h1>
             <ul role="menubar" class="list">
                 <li role="presentation" class="list-item">
                     <a href="index.html" role="menuitem" class="navigation-list_item navigation-list__item--active">Home</a>
@@ -21,10 +42,10 @@
                     <a href="contact.html" role="menuitem" class="navigation-list_item">Contact</a>
                 </li>
             </ul>
-        </nav>
+        </nav> -->
     </header>
     <main>
-        <h1 class="pokedex">PokéDex</h1>
+        
 
         <ul class='pokemon-list'></ul>
 
@@ -54,6 +75,7 @@
     <script src="https://kit.fontawesome.com/6d2ea823d0.js"></script>
     <script src="js/fetch-pollyfill.js"></script>
     <script src="js/promise-pollyfill.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
