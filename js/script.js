@@ -30,8 +30,8 @@ let pokemonRepository = (function(){
         let button = document.createElement('button');
 
         button.innerText = pokemon.name;
+        button.classList.add('pokemon-panel', 'btn', 'btn-dark');
 
-        button.classList.add('pokemon-panel');
         
         listItem.appendChild(button);
 
@@ -99,9 +99,11 @@ let pokemonRepository = (function(){
         closeButtonElement.addEventListener('click', hideModal);
 
         let titleElement = document.createElement('h1');
+    
         titleElement.innerText = pokemon.name;
 
         let contentElement = document.createElement('p');
+
         let pokeHeight = pokemon.height / 10; 
         let pokeTypes = [];
         
